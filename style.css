@@ -1,0 +1,25 @@
+h1, h2, h3, h4, h5, li, .text {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    color: green;
+}
+
+h3 {
+    color: rgb(75, 204, 75);
+}
+
+ul, ol li {
+    color: orangered;
+
+}
+
+#bonustip {
+    color: rgb(0, 255, 157);
+    font-weight: bold;
+}
+
+.text {
+    color: rgb(6, 52, 14);
+}
