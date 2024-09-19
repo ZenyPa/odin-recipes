@@ -2,12 +2,31 @@ h1, h2, h3, h4, h5, li, .text {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.recipehero {
+
+   margin: 10px 0px 10px;
+   padding: 10px 0px 10px; 
+   display: flex;
+   justify-content: center;
+   background-color: rgb(38, 206, 97);
+   border: solid;
+   border-color: black;
+
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+}
+
 h1 {
     color: green;
+    text-align: center;
 }
 
 h3 {
     color: rgb(75, 204, 75);
+    margin-left: 50px;
 }
 
 ul, ol li {
@@ -15,11 +34,18 @@ ul, ol li {
 
 }
 
+ul, ol {
+    margin-left: 70px;
+}
+
 #bonustip {
     color: rgb(0, 255, 157);
     font-weight: bold;
+    margin-top: 5px;
 }
 
 .text {
     color: rgb(6, 52, 14);
+    margin: auto;
+    margin-left: 50px;
 }
